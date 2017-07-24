@@ -161,6 +161,7 @@ const AP_Scheduler::Task Copter::scheduler_tasks[] = {
 
 void Copter::setup() 
 {
+    //20170724-wangbo-start to rewrite ardupilot
     cliSerial = hal.console;
 
     // Load the default values of variables listed in var_info[]s
